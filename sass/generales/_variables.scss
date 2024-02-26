@@ -1,0 +1,15 @@
+// $color-fondo-encabezado: #f8ffb8;
+// $color-fondo-encabezado: #2a2f45;
+$fuente-primaria: 'Montserrat', sans-serif;
+$color-fondo-encabezado: #CCCCCC;
+$color-enlace: #333333;
+$color-fondo-footer: #CCCCCC;
+$borde-menu: black solid 2px;
+
+// mixin
+@mixin flex ($direction, $justify,$align){
+    display: flex;
+    flex-direction: $direction;
+    justify-content: $justify;
+    align-items: $align;
+}

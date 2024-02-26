@@ -1,0 +1,71 @@
+// header
+/*header*/ 
+*{
+  margin: 0;
+  padding: 0;
+}
+.encabezado {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: 1000;
+    background-color: $color-fondo-encabezado;
+    font-family: $fuente-primaria;
+  
+    a {
+      color: $color-enlace;
+      text-decoration: solid;
+    }
+  
+    img {
+      width: 100px;
+    }
+  }
+
+  div ul li{
+    border: black solid 2px;
+    margin-right: 10px;
+}
+
+// banner
+/*banner*/ 
+.space {
+    margin-top: 100px;
+    width: 100%;
+  }
+  
+  .presen {
+    text-align: center;
+  }
+
+//   footer
+// footer
+.pie_pag {
+    background-color: $color-fondo-footer;
+    font-family: $fuente-primaria;
+    width: 100%;
+    height: 250px;
+  
+    img {
+      width: 50px;
+    }
+  }
+
+  // columna de contacto
+/*columna de contacto*/ 
+.pie_pag_contac {
+    background-color: aqua;
+    color: $color-enlace;
+    width: 100%;
+  
+    img {
+      width: 200px;
+    }
+  }
+
+// pie página div
+/*pie página div*/
+.pie_pag div{
+  color: $color-enlace;
+} 
