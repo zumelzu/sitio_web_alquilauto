@@ -20,6 +20,7 @@
 </head>
 <body>
     <!-- header -->
+  <header>  
     <nav class="navbar encabezado navbar-expand-lg">
         <div class="container-fluid d-flex align-items-center">
           <a href="./index.html">
@@ -31,41 +32,48 @@
           <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
             <ul class="navbar-nav">
               <li class="nav-item border-black bg-secondary">
-                <a class="nav-link text-white" href="./index.html"><h6>Inicio</h6></a>
+                <a class="nav-link text-white" href="./index.html">INICIO</a>
               </li>
               <li class="nav-item border-black bg-secondary">
-                <a class="nav-link text-white fw-bold" href="./pages/serv_adicionales.html"><h6>Otros Servicios</h6></a>
+                <a class="nav-link text-white" href="./pages/serv_adicionales.html">OTROS SERVICIOS</a>
               </li>
               <li class="nav-item border-black bg-secondary">
-                <a class="nav-link text-white fw-bold" href="./pages/contacto.html"><h6>Contacto</h6></a>
+                <a class="nav-link text-white" href="./pages/contacto.html">CONTACTO</a>
               </li>
               <li class="nav-item border-black bg-secondary">
-                <a class="nav-link text-white" href="./pages/quienes_somos.html"><h6>¿Quiénes somos?</h6></a>
+                <a class="nav-link text-white" href="./pages/quienes_somos.html">¿QUIÉNES SOMOS?</a>
               </li>
               <li class="nav-item border-black bg-secondary">
-                <a class="nav-link text-white" href="./pages/pag_extra.html"><h6>Página en construcción</h6></a>
+                <a class="nav-link text-white" href="./pages/lugares.html">LUGARES</a>
               </li>
             </ul>
           </div>
         </div>
       </nav>
+  </header>
     <!-- /header -->
 
     <!-- main -->
+  <main>
       <!-- banner -->
-      <div class="space">
+    <div class="container-lg">
         <img src="./images/banner.jpg" class="img-fluid banner-img w-auto" alt="banner">
-      </div>
+    </div>
 
       <!-- presentación -->
-      <h2 class="container"></h2>
-      <p class="bienvenido container"><h1 class="presen">"ALQUILAUTO"</h1></p>
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+          <p><h1 class="presen">"ALQUILAUTO"</h1></p>
+        </div>
+      </div>
       <!-- /presentación -->
 
       <!-- vehículos -->
-      <div class="card-group container">
+
+      <div class="card-group">
         <div class="card">
-          <img src="./images/nissan.jpg" class="card-img-top" alt="nissan">
+          <img src="./images/nissan.jpg" class="card-img-top" alt="nissan" target="_blank">
           <div class="card-body">
             <h3 class="card-title">VALOR: $38.OOO</h3>
             <h5 class="card-title">MARCA: NISSAN</h5>
@@ -80,7 +88,7 @@
             <h5 class="card-title">TRANSMISIÓN: MT</h5>
 
             <!-- links a detalles crear!!!-->
-            <a href="./pages/nissan.html" class="card-link">Card link</a>
+            <!-- <a href="./pages/nissan.html" class="card-link">Detalles</a> -->
 
           </div>
         </div>
@@ -124,79 +132,49 @@
       <!-- /vehículos -->
 
       <!-- vehículos 2 -->
-      <div class="card-group container">
-        <div class="card">
-          <img src="./images/sangyong.jpg" class="card-img-top" alt="sangyong">
-          <div class="card-body">
-
-            <h3 class="card-title">VALOR: $60.OOO</h3>
-            <h5 class="card-title">MARCA: SANGYONG</h5>
-            <h5 class="card-title">MODELO: ACTYON</h5>
-
-            <!-- DETALLE -->
-            <h5 class="card-title">AÑO: 2019</h5>
-            <h5 class="card-title">TRANSMISIÓN: MT</h5>
-            <h5 class="card-title">COMBUSTIBLE: DIESEL</h5>
-            <h5 class="card-title">PASAJEROS: 5</h5>
-            <h5 class="card-title">PUERTAS: 4</h5>
-            <h5 class="card-title">TRANSMISIÓN: MT</h5>
-
-          </div>
-        </div>
-        <div class="card">
-          <img src="./images/ford-f150.jpg" class="card-img-top" alt="ford-f150">
-          <div class="card-body">
-
-            <h3 class="card-title">VALOR: $80.OOO</h3>
-            <h5 class="card-title">MARCA: FORD</h5>
-            <h5 class="card-title">MODELO: F-150</h5>
-
-            <!-- DETALLE -->
-            <h5 class="card-title">AÑO: 2018</h5>
-            <h5 class="card-title">TRANSMISIÓN: MT</h5>
-            <h5 class="card-title">COMBUSTIBLE: 95 OCT</h5>
-            <h5 class="card-title">PASAJEROS: 5</h5>
-            <h5 class="card-title">PUERTAS: 4</h5>
-            <h5 class="card-title">TRANSMISIÓN: MT</h5>
-
-          </div>
-        </div>
-      </div>
 
       <!-- /vehículos 2 -->
-
+    </main>
     <!-- /main -->
 
     <!-- footer -->
-    <footer class="pie_pag text-light py-4">
-      <div class="container">
-          <div class="row">
-              <!-- Columna de Información de Contacto -->
-              <div class="col-md-4">
-                  <h5>Contacto</h5>
-                  <p>Dirección: Avenida los robles 1458</p>
-                  <p>Teléfono: +56989234608</p>
-                  <p>Email: pendiente@alquilauto.com</p>
-              </div>
-  
-              <!-- Columna de Redes Sociales -->
-              <div class="col-md-4 text-end">
-                  <h5>Contactanos</h5>
-                  <!-- Enlaces a redes sociales aquí -->
-                  <a href="https://www.whatsapp.com/" class="text-light" target="_blank"> <img src="./images/watssapp.png" alt="Whatsapp"></a><br>
-                  <a href="https://facebook.com/" class="text-light" target="_blank"> <img src="./images/facebook.png" alt="Facebook"></a><br>
-                  <a href="https://www.instagram.com/" class="text-light" target="_blank"> <img src="./images/instagram.png" alt="Instagram"></a>
-              </div>
-          </div>
-  
-          <!-- Derechos de Autor -->
-          <div class="text-center mt-4">
-              <p>© 2024 Inversiones zumelzu SPA. Todos los derechos reservados.</p>
-          </div>
+   <footer class="container-fluid pie_pag">
+    <div class="row">
+      <div class="col-6">
+        <h4>Contacto</h4>
+        <p>Dirección: Avenida los robles 1458 <br>
+        Teléfono: +56989234608 <br>
+        Email: pendiente@alquilauto.com</p>
       </div>
-    </footer>
-    <!-- /footer -->
-    
+
+      <div class="col-2 d-flex flex-column justify-content-center align-items-end">
+        <a href="https://www.whatsapp.com/" class="text-light" target="_blank"> <img src="./images/watssapp.png" alt="Whatsapp"></a>
+      </div>
+
+      <div class="col-2 d-flex flex-column justify-content-center align-items-center">
+        <a href="https://facebook.com/" class="text-light" target="_blank"> <img src="./images/facebook.png" alt="Facebook"></a>
+      </div>
+
+      <div class="col-2 d-flex flex-column justify-content-center align-items-start">
+        <a href="https://www.instagram.com/" class="text-light" target="_blank"> <img src="./images/instagram.png" alt="Instagram"></a>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-6">
+        <!-- vacio  -->
+      </div>
+      <div class="col-6 text-center contactanos">
+        <h2>Contáctanos</h2>
+      </div>
+
+      <div class="col-12 text-center">
+        <p>© 2024 Inversiones zumelzu SPA. Todos los derechos reservados.</p>
+      </div>
+
+    </div>
+   </footer> 
+
     <!-- hoja de js de BS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>

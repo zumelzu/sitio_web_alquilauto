@@ -1,8 +1,11 @@
-@charset "UTF-8";
 /*header*/
 * {
   margin: 0;
   padding: 0;
+}
+
+body {
+  background-color: #697B6E;
 }
 
 .encabezado {
@@ -10,9 +13,10 @@
   top: 0px;
   left: 0px;
   width: 100%;
-  z-index: 1000;
+  z-index: 10;
   background-color: #CCCCCC;
   font-family: "Montserrat", sans-serif;
+  text-align: center;
 }
 .encabezado a {
   color: #333333;
@@ -27,10 +31,14 @@ div ul li {
   margin-right: 10px;
 }
 
-/*banner*/
-.space {
-  margin-top: 100px;
+main {
+  margin-top: 115px;
+}
+
+.img-estirada {
   width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .presen {
@@ -41,25 +49,16 @@ div ul li {
   background-color: #CCCCCC;
   font-family: "Montserrat", sans-serif;
   width: 100%;
-  height: 250px;
+  height: 160px;
+  margin: bottom;
 }
 .pie_pag img {
   width: 50px;
 }
 
 /*columna de contacto*/
-.pie_pag_contac {
-  background-color: aqua;
-  color: #333333;
-  width: 100%;
-}
-.pie_pag_contac img {
-  width: 200px;
-}
-
-/*pie página div*/
-.pie_pag div {
-  color: #333333;
+.contactanos {
+  text-decoration: black;
 }
 
 /*Banner*/
@@ -75,6 +74,12 @@ div ul li {
 
 body {
   font-family: "Montserrat", sans-serif;
+}
+
+.carrusel-contenedor {
+  display: flex;
+  justify-content: end;
+  align-items: end;
 }
 
 /*# sourceMappingURL=estilos.css.map */

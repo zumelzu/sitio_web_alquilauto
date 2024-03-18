@@ -11,7 +11,13 @@
     height: auto;
 }
 
-// fuete body
+// fuente body
 body {
   font-family: $fuente-primaria;
+}
+
+.carrusel-contenedor{
+  display: flex;
+  justify-content: end;
+  align-items: end;
 }
